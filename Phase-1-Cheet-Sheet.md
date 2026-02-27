@@ -326,6 +326,19 @@ docker rm container_id
 docker rmi image_id
 ```
 
+### Docker Compose Commands
+
+```
+docker compose version (Verify the version)
+docker-compose up
+docker-compose up -d (detached mode)
+docker-compose down (Remove everything (containers, networks))
+docker-compose stop (Stop services without removing)
+docker compose ps
+docker compose logs
+docker compose logs db (View logs of a specific service)
+docker compose up --build ( Rebuild images if you make a change ) 
+```
 ------------------------------------------------------------------------
 
 # 💾 LVM (Storage Management)
